@@ -26,7 +26,7 @@ GITREPO_URL="https://$GIT_USER:$GIT_PASS@github.com/arunkamon"
 SOURCE_REPO="$GITREPO_URL/laravel-quickstart-source.git"
 CONFIG_REPO="$GITREPO_URL/laravel-quickstart-config.git"
 DOCKER_REPO="$GITREPO_URL/laravel-quickstart-dockers.git"
-SOURCE_SUBDIR="laravel-quickstart/web"
+SOURCE_SUBDIR="web"
 
 #BUILD DIR
 DEPLOY_DIR="$DEPLOY_BASEDIR/$PROJECT_NAME"
